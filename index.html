@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    body{
+        background-image: linear-gradient(rgb(220, 182, 182), rgb(196, 243, 196)), linear-gradient(rgb(203, 46, 46),rgb(136, 81, 196) ,rgb(176, 187, 91));
+        background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  left, right, top;
+  height: 80vh;
+    }
+    .form{
+        width: 240px;
+        height: 400px;
+        background-color: rgb(159, 151, 208);
+        margin: auto;
+       margin-top: 100px;
+       border-radius: 8px;
+    
+    }
+    h1{
+        text-align: center;
+    }
+input[type=text],input[type=password]{
+    background-color: turquoise;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+margin-left: 30px;
+}
+a{
+    display: inline-block;
+margin-left: 50px;
+}
+input[type=checkbox]{
+position: relative;
+left: 50px;
+}
+input[type=submit]{
+    border: none;
+    padding: 5px 55px;
+    position: relative;
+    left: 45px;
+    background-image: linear-gradient(rgb(212, 174, 174) , rgb(169, 221, 169) , rgb(119, 119, 195));
+}
+input:focus{
+    width: 70%;
+    background-color: blueviolet;
+}
+</style>
+</head>
+<body>
+ 
+    <form action="" class="form">
+        <h1>Login</h1>
+        <input type="text" placeholder="username"><br><br>
+        <input type="password" placeholder="password"><br><br>
+        <input type="checkbox" ><a href="">Keep me Login</a><br><br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
